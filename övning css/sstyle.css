@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* utility classes */
+.btn{
+ padding: 1em 2em;   
+ border-radius: 5em;
+ border: none;
+ font-weight: 700;
+ background-color: transparent;
+ cursor: pointer;
+ transition: background-color 0,3s;
+
+ 
+}
+
+.btn-block{
+    display: block;
+    width: 100;
+}
+
+.btn-primary:active,
+.btn-primary:focus-visible {
+    background-color: orange;
+    color: white;
+    
+}
+.btn-primary:hover{
+    background-color: hsl(39, 100%, 40%);
+    color: white;
+}
+.btn-secondary{
+    background-color: green;
+    color: white;
+}
+
+.btn-secondary:hover{
+background-color: orange;
+color: white;
+
+}
+
+.btn-outline:active,
+.btn.outline:focus-visible{
+    
+    background-color: orange;
+    color: white;
+
+   
+}
+.btn-outline:hover {
+    border: 1px solid orange;
+    color: orange;
+
+}
+    
+
+/* showcase section */
+#showcase{
+    height: 70svh;
+    background-color: darkslateblue;
+    color: #fff;
+
+    padding: 3rem;
+
+    .headline{
+    font-size: 4 rem;
+
+.subheading{
+    font-size: 2rem;
+    color: darkslateblue
+}
+
+}
+
+
+}
+
+#showcase .btn {
+    margin-top: 2rem;
+
+}
