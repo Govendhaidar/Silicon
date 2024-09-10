@@ -8,6 +8,8 @@
     --color-white: #ffffff;
 
     --color-gray300: #e2e5f1; 
+    --color-gray900: #0b0f19;
+    --color-gray700: #565973;
 
     --container-padding: 1rem;
     --transition-time: all 0,2s;
@@ -248,6 +250,40 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.container {
+    color: var(--color-gray900);
+    padding: 2rem;
+   
+    
+}
+
+.h1 {
+    padding: 0.4rem;
+   
+}
+
+.lill-text{
+    color: var(--color-gray700);
+    padding: 0.5rem;
+}
+
+.bilder {
+    width: 180px;
+    height: 52;
+    padding: 0.5rem;
+    padding-top: 1rem;
+    padding-right: 2rem;
+    
+
+}
+
+.iphone {
+    width: 320px;
+    height: 380px;
+}
+
+
 
 
 
