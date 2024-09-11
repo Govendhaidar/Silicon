@@ -254,39 +254,44 @@ footer {
 .container {
     color: var(--color-gray900);
     padding: 2rem;
-   
     
 }
 
 .h1 {
     padding: 0.4rem;
+    margin-left: 2rem;
    
 }
 
 .lill-text{
     color: var(--color-gray700);
     padding: 0.5rem;
+    margin-left: 2rem;
 }
 
 .bilder {
     width: 180px;
-    height: 52;
     padding: 0.5rem;
     padding-top: 1rem;
-    padding-right: 2rem;
-    
+    padding-bottom: 20rem;
+    margin-left: 2rem;
 
 }
 
-.iphone {
-    width: 320px;
-    height: 380px;
+
+.right-image {
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    padding-right: 15rem;
+    width: 880px;
+    height: 260px;
 }
 
-
-
-
-
+section .container-1 {
+    background-image: linear-gradient(#f1f4fd15, #db46ef09, #6365f10e);
+}
 
 @media (min-width: 768px) {
 .container {
