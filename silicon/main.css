@@ -91,10 +91,43 @@ a:hover {
     margin-right: 0.5rem;
 }
 
+.btn-download-app {
+    background-color: var(--color-dark);
+    color: var(--color-white);
+    border-radius: 8px;
+    padding: 12px 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.btn-download-app:hover {
+    background-color: var(--color-gray600);
+    color: var(--color-white);
+    text-decoration: none;
+}
+
+
+
+
 .btn-mobile {
     background-color: transparent;
     border: none;
     font-size: 2rem;
+}
+
+
+
+.btn-circle {
+    height: 44px;
+    width: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid var(--color-gray700);
+    background-color: var(--color-white);
 }
 
 .btn-toggle-switch {
@@ -251,47 +284,8 @@ footer {
     align-items: center;
 }
 
-.container {
-    color: var(--color-gray900);
-    padding: 2rem;
-    
-}
-
-.h1 {
-    padding: 0.4rem;
-    margin-left: 2rem;
-   
-}
-
-.lill-text{
-    color: var(--color-gray700);
-    padding: 0.5rem;
-    margin-left: 2rem;
-}
-
-.bilder {
-    width: 180px;
-    padding: 0.5rem;
-    padding-top: 1rem;
-    padding-bottom: 20rem;
-    margin-left: 2rem;
-
-}
 
 
-.right-image {
-    float: right;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    padding-right: 15rem;
-    width: 880px;
-    height: 260px;
-}
-
-section .container-1 {
-    background-image: linear-gradient(#f1f4fd15, #db46ef09, #6365f10e);
-}
 
 @media (min-width: 768px) {
 .container {
@@ -357,6 +351,163 @@ display: block;
     display: flex;
 }
     
+    }
+
+
+
+
+
+
+
+    #hero {
+        background: rgb(99,102,241);
+        background: linear-gradient(0deg, rgba(99,102,241,0.1) 0%, rgba(218,70,239,0.05) 42%, rgba(241,244,253,0.07) 83%);
+        padding-bottom: 2rem;
+
+
+
+        @media (min-width: 768px) {
+            padding-bottom: 0;
+        }
+
+        .container {
+            display: grid;
+            gap: 2rem;
+            grid-template-columns: 1fr;
+            grid-template-areas:   "headline" "content";
+
+            @media (min-width: 768px) {
+
+                grid-template-columns: 1fr 1fr;
+                grid-template-areas:        "headline headline"
+                                            "content images";
+                
+            }
+
+
+            @media (min-width: 1400px) {
+
+                grid-template-columns: 2fr 3fr;
+                grid-template-areas:        "headline images"
+                                            "content images";
+                
+            }
+
+        }
+
+        .headline {
+            grid-area: headline;
+           text-align: center;
+
+            h1 {
+
+                font-size: 34px;
+                font-weight: 800;
+
+                @media (min-width: 768px) {
+                    font-size: 56px;
+
+                }
+
+                @media (min-width: 1400px) {
+                    text-align: left;
+
+                }
+
+
+
+            }
+        }
+
+        .content {
+            grid-area: content;
+            text-align: center;
+
+            @media (min-width: 768px) {
+                text-align: left;
+            }
+
+            p {
+                font-size: 18px;
+                margin-bottom: 2rem;
+
+            }
+
+            .buttons {
+                display: flex;
+                flex-direction: column;
+                gap: 1rem;
+
+                @media (min-width: 1400px) {
+                    flex-direction: row;
+                }
+
+            }
+
+            .discover-more {
+                color: var(--color-dark);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 1rem;
+                margin-top: 2rem;
+
+                @media (min-width: 768px) {
+                   justify-content: flex-start;
+                   margin-bottom: 2rem;
+                }
+
+                @media (min-width: 1400px) {
+
+                    margin-top: 12rem;
+                 }
+
+            }
+
+        }
+
+        .images {
+            position: relative;
+            grid-area: images;
+            display: none;
+
+            @media (min-width: 768px) {
+                display: block;
+            }
+            .img-back {
+                position: absolute;
+                z-index: -10;
+                bottom: 0;
+                right: 50px;
+                width: 30%;  
+                height: auto;
+
+                
+                @media (min-width: 1400px) {
+                    width: 35%;
+                    bottom: 0;
+                    right: 80px;
+                }
+
+            }
+
+            .img-front {
+                position: absolute;
+                z-index: -5;
+                bottom: 0;
+                right: 0;
+                width: 32%;
+                height: auto;
+
+                @media (min-width: 1400px) {
+                    width: auto;
+                }
+
+             
+
+            }
+
+        }
     }
 
 
