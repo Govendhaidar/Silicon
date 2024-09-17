@@ -376,6 +376,7 @@ display: block;
             display: grid;
             gap: 2rem;
             grid-template-columns: 1fr;
+            grid-template-columns: 1fr;
             grid-template-areas:   "headline" "content";
 
             @media (min-width: 768px) {
@@ -473,6 +474,7 @@ display: block;
             position: relative;
             grid-area: images;
             display: none;
+            
 
             @media (min-width: 768px) {
                 display: block;
@@ -487,8 +489,8 @@ display: block;
 
                 
                 @media (min-width: 1400px) {
-                    width: 50%;
-                    bottom: -120px;
+                    width: auto;
+                    bottom: -5px;
                     right: 150px;
                     
                 }
@@ -505,7 +507,7 @@ display: block;
 
                 @media (min-width: 1400px) {
                     width: 50%;
-                    bottom: -120px;
+                    bottom: -10px;
                 }
 
              
@@ -513,6 +515,94 @@ display: block;
             }
 
         }
+
+
+       
+    }
+
+
+    #features {
+        grid-template-columns: 1fr 2fr;
+
+
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-template-areas: "headline headline"
+                                "images content";
+        }
+
+        .iphone {
+
+         .your-card {
+            width:60%;
+            position: grid;
+            grid-area: images;
+            margin-bottom: 4rem;
+        }
+
+        }
+       
+
+        .headline {
+            grid-area: headline;
+            text-align: center;
+
+            h1 {
+           font-size: 40px;
+         font-weight: 800;
+            }
+
+          
+
+            
+
+        }
+
+        .content {
+                grid-area: content;
+                text-align: left;
+                color: var(--color-gray600);
+                padding-left: 5rem;
+
+                .nedre-text {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                    gap: 20px;
+                    margin-top: 40px;
+                    color: var(--color-gray900);
+
+                }
+
+                .features {
+                    display: flex;
+                    align-items: flex-start;
+                    gap: 15px;
+                    margin-bottom: 20px;
+                }
+
+                .icon {
+                    width: 60px;
+                    height: 60px;
+                }
+
+                .text h3 {
+                    margin: 0;
+                    font-size: 22px;
+                    font-weight: bold;
+                }
+
+                .text p {
+                    color: var(--color-gray700);
+                    margin: 5px 0 0 0;
+                    font-size: 16px;
+                }
+
+            
+                
+            }
+
+
     }
 
 
