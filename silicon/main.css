@@ -11,6 +11,7 @@
     --color-gray900: #0b0f19;
     --color-gray700: #565973;
     --color-gray100: #f3f6ff;
+    --color-gray500: #b4b7c9;
 
     --container-padding: 1rem;
     --transition-time: all 0,2s;
@@ -739,6 +740,84 @@ display: block;
    
 
    }
+
+
+   .clients {
+    background-color: var(--color-gray100);
+    display: flex;
+    grid-template-columns: 1fr 2fr;
+    justify-content: space-between;
+
+    .container-5 {
+        font-size: 30px;
+        font-weight: 800;
+        color: var(--color-gray900);
+        padding-top: 1rem;
+        padding-left: 20rem;
+
+    }
+
+    .rutor {
+        padding-right: 8rem;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+   }
+
+
+   .subscribe {
+    background-color: var(--color-gray100);
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+
+    .container-6 {
+        display: flex;
+        align-items: center;
+    }
+
+    .klocka {
+        display: flex;
+        padding-right: 10rem;
+
+    }
+
+    .email {
+        display: flex;
+        padding-left: 10rem;
+
+        .input {
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 400;
+        }   
+
+        .knapp {
+            background-color: var(--color-primary);
+            color: #f3f6ff;
+            border: none;
+            border-radius: 0px 5px 5px 0px;
+            padding: 10px;
+            font-size: 16px;
+            font-weight: 800;
+
+
+        }
+
+        .ruta {
+            display: flex;
+            align-items: stretch;
+        }
+
+    }
+
+   }
+
+
 
    
 
