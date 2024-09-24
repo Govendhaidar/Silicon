@@ -12,6 +12,8 @@
     --color-gray700: #565973;
     --color-gray100: #f3f6ff;
     --color-gray500: #b4b7c9;
+    --color-green: #22c55e;
+    --color-gray800: #33354d;
 
     --container-padding: 1rem;
     --transition-time: all 0,2s;
@@ -789,6 +791,7 @@ display: block;
     .email {
         display: flex;
         padding-left: 10rem;
+        
 
         .input {
             padding: 10px;
@@ -816,6 +819,194 @@ display: block;
     }
 
    }
+
+.faqs {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.container-7 {
+  h2 {
+    font-size: 32px;
+    font-weight: 800;
+    color: var(--color-gray900);
+    margin-left: 3rem;
+  }
+
+  p {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--color-gray700);
+    margin-left: 3rem;
+  }
+}
+
+.vänster {
+display: flex;
+
+}
+    .contact-box {
+        padding: 20px;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        border: 1px solid #ddd;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+
+        p {
+            margin-left: 2rem;
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--color-gray700);
+        }
+
+         .fa-solid {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        color: var(--color-primary);
+    }
+        
+    }
+
+   
+
+    .contact {
+        margin-left: 2rem;
+        font-weight: 600;
+        font-size: 14px;
+
+    }
+
+    .contact-1 {
+        margin-left: 2rem;
+        color: var(--color-green);
+        font-size: 14px;
+        font-weight: 600;
+
+        .fa-solid {
+            color: var(--color-green);
+        }
+
+    }
+
+    .fa-comment-dots {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+        color: var(--color-green);
+    }
+
+    .contact-box-1 {
+        padding: 20px;
+        margin-top: 1rem;
+        margin-left: 2rem;
+        border: 1px solid #ddd;
+        margin-bottom: 1rem;
+        border-radius: 10px;
+        
+        p{
+            margin-left: 2rem;
+            font-size: 14px;
+            font-weight: 400;
+            color: var(--color-gray700);
+        }
+
+    }
+
+
+    .container-8 {
+        flex: 2;
+        padding-bottom: 8rem;
+        
+        .item {
+            background-color: white;
+            border: none;
+            margin-bottom: 10px;
+            margin-right: 5rem;
+            margin-top: 2rem;
+            margin-left: 10rem;
+            
+
+
+        }
+
+        .question {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 20px;
+            font-size: 16px;
+            background-color: white;
+            border: none;
+            font-weight: 600;
+            color: var(--color-gray900);
+            box-shadow: 3px 3px gainsboro;
+            border-radius: 10px;
+            
+        }
+
+        .arrow-1 {
+            color: var(--color-gray800);
+        }
+
+        .btn-circle {
+            background-color: var(--color-gray100);
+            border: none;
+        }
+
+        .btn-circle-1 {
+            height: 44px;
+            width: 44px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+            border: none;
+            background-color: var(--color-primary);
+            position: absolute;
+            bottom: 1rem;
+            left: -2.7rem;
+        }
+
+        .arrow-2 {
+            color: var(--color-white);
+            position: relative;
+        }
+
+
+       .h3 {
+        display: flex;
+        font-size: 16px;
+        font-weight: 600;
+        color: var(--color-gray900);
+       }
+
+       .p {
+        font-size: 14px;
+        font-weight: 400;
+        text-align: left;
+        color: var(--color-gray700);
+       }
+
+       
+
+      
+    }
+
+    
+
+
+
+
+            
+        
+                
+
+
+  
+
+  
 
 
 
