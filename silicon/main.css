@@ -659,7 +659,7 @@ display: block;
         justify-content: center;
         background-color: #6361f1;
         color: white;
-        padding: 5px 15px;
+        padding:15px 20px;
         border-radius: 5px;
         border: 0;
         font-size: 14px;
@@ -674,11 +674,34 @@ display: block;
         font-weight: 800;
     }
 
-    li {
-        margin-left: 18.5rem;
+    .p-1 {
+        display: flex;
+        margin-left: 20rem;
         color: var(--color-gray700);
         font-size: 16px;
         font-weight: 400;
+        gap: .5rem;
+    }
+
+    .p-2 {
+        display: flex;
+        margin-left: 20rem;
+        color: var(--color-gray700);
+        font-size: 16px;
+        font-weight: 400;
+        gap: .5rem;
+        margin-top: 1rem;
+    }
+
+    .p-3 {
+        display: flex;
+        margin-left: 20rem;
+        color: var(--color-gray700);
+        font-size: 16px;
+        font-weight: 400;
+        gap: .5rem;
+        margin-top: 1rem;
+        margin-bottom: 3rem;
     }
 
     .bild-övre {
@@ -788,15 +811,26 @@ display: block;
 
     }
 
+    .msg {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        padding-left: .5rem;
+    }
+
     .email {
         display: flex;
         padding-left: 10rem;
-        
+        position: relative;
+       
 
         .input {
             padding: 10px;
             font-size: 16px;
             font-weight: 400;
+            padding-left: 2rem;
+            border-radius: 5px 0px 0px 5px;
+            border: 1px solid rgba(128, 128, 128, 0.235);
         }   
 
         .knapp {
