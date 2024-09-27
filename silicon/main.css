@@ -794,11 +794,14 @@ display: block;
    .subscribe {
     background-color: var(--color-gray100);
     display: flex;
-    grid-template-columns: 1fr 1fr;
     justify-content: center;
     align-items: center;
     padding-bottom: 1rem;
     padding-top: 1rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    border-radius: 15px;
+
 
     .container-6 {
         display: flex;
@@ -807,7 +810,7 @@ display: block;
 
     .klocka {
         display: flex;
-        padding-right: 10rem;
+        
 
     }
 
